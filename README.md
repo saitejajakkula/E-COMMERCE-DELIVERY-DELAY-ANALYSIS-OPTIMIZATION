@@ -42,29 +42,29 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ## 🔍 Key Insights
 
-1. **System-Wide Delivery Failure**
+**1. System-Wide Delivery Failure**
 
 * Overall delay rate: **49.5% (2,476 orders)**
 * All regions and couriers show high delay rates → not an isolated issue
 
-2. **Courier Performance is the Biggest Lever**
+**2. Courier Performance is the Biggest Lever**
 
 * **India Post:** 57.3% delay (worst performer)
 * **Ecom Express:** 43.7% delay (best performer)
 * A **13.6 percentage point gap** highlights massive optimization potential
 
-3. **Regional Bottleneck (North India)**
+**3. Regional Bottleneck (North India)**
 
 * North region delay: **55.8% (highest)**
 * Indicates structural last-mile delivery issues (Delhi, Lucknow)
 
-4. **Predictable Demand Spikes Not Managed**
+**4. Predictable Demand Spikes Not Managed**
 
 * January: **59.5% delays**
 * September: **56.3% delays**
 * Root cause: Lack of demand-based capacity planning
 
-5. **“Cheaper Courier” is Actually Costlier**
+**5. “Cheaper Courier” is Actually Costlier**
 
 * India Post appears cheaper upfront
 * But higher delays lead to:
@@ -81,10 +81,11 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 Two primary root causes were identified:
 
-1. **No SLA accountability in courier contracts**
+**1. No SLA accountability in courier contracts**
 
    * No penalties → no incentive for performance improvement
-2. **Lack of demand-responsive capacity planning**
+     
+**2. Lack of demand-responsive capacity planning**
 
    * Fixed capacity fails during predictable seasonal spikes
 
@@ -96,26 +97,26 @@ Two primary root causes were identified:
 
 Introduce penalty clauses for delayed deliveries to enforce accountability.
 
-### 2. Smart Courier Routing
+ **2. Smart Courier Routing**
 
 * Route high-value orders to high-performing couriers
 * Use low-cost couriers only for non-urgent shipments
 
-### 3. Peak Season Planning
+ **3. Peak Season Planning**
 
 * Increase capacity by ~30% before Jan & Sep demand spikes
 
-### 4. Real-Time SLA Monitoring Dashboard
+ **4. Real-Time SLA Monitoring Dashboard**
 
 * Track courier performance daily
 * Trigger alerts for SLA breaches
 
-### 5. Regional Optimization (North)
+ **5. Regional Optimization (North)**
 
 * Conduct last-mile audit
 * Deploy dedicated operations team
 
-### 6. Proactive Customer Communication
+ **6. Proactive Customer Communication**
 
 * Notify delays early + offer compensation (discount vouchers)
 
