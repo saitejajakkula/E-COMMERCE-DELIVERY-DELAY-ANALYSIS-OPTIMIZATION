@@ -92,7 +92,7 @@ Two primary root causes were identified:
 
 ## 💡 Business Recommendations
 
-### 1. SLA Contract Reform
+ **1. SLA Contract Reform**
 
 Introduce penalty clauses for delayed deliveries to enforce accountability.
 
