@@ -42,7 +42,7 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ## 🔍 Key Insights
 
-# 1. System-Wide Delivery Failure
+** 1. System-Wide Delivery Failure **
 
 * Overall delay rate: **49.5% (2,476 orders)**
 * All regions and couriers show high delay rates → not an isolated issue
