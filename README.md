@@ -79,15 +79,21 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ## 🧠 Root Cause Analysis (5 Whys Summary)
 
-Two primary root causes were identified:
+Why 1	
+Why are 49.5% of deliveries delayed?	Courier partners fail to meet the 5-day SLA on nearly half of all orders — India Post (57.3%) and DTDC (52.2%) are the primary contributors, together handling 2,100 orders (42% of volume).
 
-**1. No SLA accountability in courier contracts**
+Why 2	
+Why do India Post and DTDC miss SLA consistently?	Orders dispatched via these couriers average 7.1–7.8 delivery days versus 6.3 days for Ecom Express. The gap indicates last-mile inefficiency and hub congestion, not warehouse dispatch issues.
 
-   * No penalties → no incentive for performance improvement
-     
-**2. Lack of demand-responsive capacity planning**
+Why 3	
+Why is there a 13.6pp gap between best and worst courier?	No SLA-linked penalty clause exists in current courier contracts. With zero financial consequence for delays, India Post and DTDC have no commercial incentive to prioritise this company's shipments.
 
-   * Fixed capacity fails during predictable seasonal spikes
+Why 4	
+Why do delays spike to 59.5% in Jan and 56.3% in Sep?	Warehouse picking backlogs form during post-holiday (Jan) and pre-festive (Sep) surges because courier capacity and dispatch staffing are fixed and not scaled to predictable demand peaks.
+
+Why 5	
+Why is capacity not scaled ahead of known demand peaks?	No real-time SLA tracking or demand forecasting system exists. Operational decisions are reactive. By the time delay rates become visible, the surge has already overwhelmed the network for that period.
+
 
 ---
 
