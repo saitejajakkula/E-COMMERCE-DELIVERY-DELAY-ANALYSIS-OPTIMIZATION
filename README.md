@@ -127,7 +127,7 @@ Introduce penalty clauses for delayed deliveries to enforce accountability.
 * **Delay Rate Reduction:** 49.5% → ~22–26%
 * **Cancellation Reduction:** Up to 18% → ~10%
 * **Repeat Purchase Increase:** +15–20%
-* **Annual Revenue Protection:** **Rs.18–21 Crores**
+* **Annual Revenue Protection:** #Rs.18–21 Crores
 
 ---
 
