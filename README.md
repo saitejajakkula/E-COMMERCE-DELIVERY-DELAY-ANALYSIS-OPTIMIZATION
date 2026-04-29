@@ -150,11 +150,13 @@ By addressing courier accountability and improving demand planning, the company 
 ---
 
 Project link
+
 🔗 Live Dashboard: 
 
 ---
 
 📂 Use Case
+
 This project is ideal for demonstrating:
 
 Business Analyst skills Data-driven decision making Structured problem solving Insight generation from data
