@@ -80,19 +80,19 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 ## 🧠 Root Cause Analysis (5 Whys Summary)
 
 
-1. **Why are deliveries delayed?**
+**1. Why are deliveries delayed?**
    ~50% of orders miss the 5-day SLA; India Post (57.3%) and DTDC (52.2%) drive most delays, handling 42% of volume.
 
-2. **Why do these couriers miss SLA?**
+**2. Why do these couriers miss SLA?**
    They take 7.1–7.8 days on average vs. 6.3 days for Ecom Express → last-mile inefficiency and hub congestion.
 
-3. **Why such performance gap?**
+**3. Why such performance gap?**
    No SLA-linked penalties → no financial incentive to prioritize timely delivery.
 
-4. **Why do delays spike in Jan & Sep?**
+**4. Why do delays spike in Jan & Sep?**
    Demand surges create warehouse backlogs while courier capacity and staffing remain fixed.
 
-5. **Why isn’t capacity scaled?**
+**5. Why isn’t capacity scaled?**
    No real-time SLA tracking or demand forecasting → operations react too late to demand spikes.
 
 
