@@ -149,13 +149,13 @@ By addressing courier accountability and improving demand planning, the company 
 
 ---
 
-Project link
+## Project link
 
 🔗 Live Dashboard: 
 
 ---
 
-📂 Use Case
+## 📂 Use Case
 
 This project is ideal for demonstrating:
 
@@ -163,7 +163,7 @@ Business Analyst skills Data-driven decision making Structured problem solving I
 
 ---
 
-👨‍💼 About Me
+## 👨‍💼 About Me
 Hi, I’m Saiteja Jakkula 👋
 
 I’m interested in Business Analytics, Market Research, and Strategy Analysis, with a focus on:
@@ -176,11 +176,11 @@ Combining Human + AI for decision making
 
 ---
 
-🔗 Connect with me on LinkedIn:
+## 🔗 Connect with me on LinkedIn:
 💼 https://www.linkedin.com/in/jakkula-saiteja/
 
 ---
 
-⭐ If you found this useful
+## ⭐ If you found this useful
 
 Give this repo a ⭐ and feel free to connect or reach out!
