@@ -53,7 +53,7 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 * **Ecom Express:** 43.7% delay (best performer)
 * A **13.6 percentage point gap** highlights massive optimization potential
 
-3. **Regional Bottleneck (North India**
+3. **Regional Bottleneck (North India)**
 
 * North region delay: **55.8% (highest)**
 * Indicates structural last-mile delivery issues (Delhi, Lucknow)
