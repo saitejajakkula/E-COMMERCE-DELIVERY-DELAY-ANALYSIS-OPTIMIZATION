@@ -109,6 +109,15 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ## 🔍 Key Insights
 
+<img width="1920" height="743" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/dd5abee5-fd98-4159-8430-67e81c16a93e" />
+<img width="1920" height="558" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/c00f2b55-3c53-4950-b3c0-b6ba0109107f" />
+<img width="1920" height="598" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/2eb21f79-6ead-4fbe-9839-6bb1bccd077f" />
+<img width="1920" height="582" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/03b27acb-9b77-49b7-8a83-2e24eeee584c" />
+<img width="1920" height="729" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/80c99d83-b1c1-4dca-afc8-9bab7cf043a7" />
+<img width="1920" height="124" alt="Screenshot (231)" src="https://github.com/user-attachments/assets/c1c512de-5d87-4589-bb65-3a01885b90d3" />
+
+---
+
 **1. System-Wide Delivery Failure**
 
 * Overall delay rate: **49.5% (2,476 orders)**
@@ -147,10 +156,6 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 ## 🧠 Deep Dive Analysis (5 Whys Summary)
 
 <img width="1920" height="503" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b0851a46-bc5d-463e-8c58-1d57d850033d" />
-<img width="1920" height="743" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/dd5abee5-fd98-4159-8430-67e81c16a93e" />
-<img width="1920" height="558" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/c00f2b55-3c53-4950-b3c0-b6ba0109107f" />
-<img width="1920" height="598" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/2eb21f79-6ead-4fbe-9839-6bb1bccd077f" />
-<img width="1920" height="582" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/03b27acb-9b77-49b7-8a83-2e24eeee584c" />
 
 ---
 
@@ -173,6 +178,11 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 ---
 
 ## 💡 Business Recommendations
+
+<img width="1920" height="755" alt="Screenshot (232)" src="https://github.com/user-attachments/assets/41cba1ba-7155-4457-9d2e-a170ff037b03" />
+<img width="1920" height="587" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/b5b04365-ccc6-42d5-a936-4eea70c3c7c4" />
+
+---
 
  **1. SLA Contract Reform**
 
@@ -205,6 +215,9 @@ Introduce penalty clauses for delayed deliveries to enforce accountability.
 
 ## 📈 Projected Impact
 
+<img width="1920" height="742" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/ad6ea0e0-c12e-4c3c-a4e4-eedeff1e1e6c" />
+
+---
 * **Delay Rate Reduction:** 49.5% → ~22–26%
 * **Cancellation Reduction:** Up to 18% → ~10%
 * **Repeat Purchase Increase:** +15–20%
