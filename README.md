@@ -244,9 +244,8 @@ The Power BI dashboard includes:
 
 * **SQL (MySQL):** Data extraction, aggregation, SLA calculations
 * **Python (Pandas):** Data cleaning, transformation, exploratory analysis
-* **Power BI:** Interactive dashboard, KPI tracking, trend visualization
 * **Excel:** Data validation and cross-checking
-
+I used AI tools like Claude to streamline dashboard development and automate parts of the workflow, while I defined the business problem, selected the KPIs, validated the data, and delivered the key insights and recommendations.
 ---
 
 ## 🚀 Key Takeaway
