@@ -23,13 +23,72 @@ Delivery delays directly impact key business metrics:
 This makes delivery performance not just an operational issue, but a **strategic growth risk**.
 
 ---
+## 📌 Key Performance Indicators (KPIs)
 
-## 🧰 Tools & Technologies Used
+The following KPIs were defined to measure delivery performance, operational efficiency, and business impact:
 
-* **SQL (MySQL):** Data extraction, aggregation, SLA calculations
-* **Python (Pandas):** Data cleaning, transformation, exploratory analysis
-* **Power BI:** Interactive dashboard, KPI tracking, trend visualization
-* **Excel:** Data validation and cross-checking
+### 🚚 Delivery Performance KPIs
+
+* **Overall Delay Rate (%)**
+  Percentage of orders delivered beyond the 5-day SLA
+  → *Current: 49.5% | Target: ≤25%*
+
+* **On-Time Delivery Rate (%)**
+  Percentage of orders delivered within SLA
+  → *Current: 50.5%*
+
+* **Average Delivery Time (Days)**
+  Mean number of days taken to deliver an order
+  → *Used to compare courier efficiency*
+
+---
+
+### 📦 Operational KPIs
+
+* **Delay Rate by Courier (%)**
+  Measures courier partner performance and SLA adherence
+  → Identifies underperforming partners (e.g., India Post)
+
+* **Delay Rate by Region (%)**
+  Highlights geographic bottlenecks in delivery operations
+
+* **Monthly Delay Trend (%)**
+  Tracks seasonal spikes and demand-supply mismatches
+
+---
+
+### 💰 Business Impact KPIs
+
+* **Cancellation Rate (Delayed vs On-Time)**
+  Delayed orders show ~3x higher cancellation rates
+
+* **Repeat Purchase Rate (90 Days)**
+  Customers with delayed orders are 40% less likely to reorder
+
+* **Cost per Successful Delivery (₹)**
+  Includes shipping + cost of delay (refunds, support, churn impact)
+
+* **Revenue at Risk (₹)**
+  Value of orders impacted by delivery delays
+
+---
+
+### ⚡ Monitoring & Control KPIs (Post-Implementation)
+
+* **Courier SLA Compliance (%)**
+  % of deliveries meeting SLA per courier
+
+* **Delay Alert Threshold**
+  Trigger alerts if delay rate exceeds 45% (rolling 7-day window)
+
+* **Peak Season Performance (%)**
+  Tracks delay rates during high-demand months (Jan, Sep)
+
+---
+
+## 🎯 KPI Strategy Insight
+
+Instead of tracking only operational metrics, this project links **delivery performance → customer behavior → revenue impact**, ensuring that improvements are aligned with business outcomes, not just logistics efficiency.
 
 ---
 
@@ -150,6 +209,15 @@ The Power BI dashboard includes:
 * Delay % by Region and Courier
 * Monthly trend analysis (spike detection)
 * Interactive filters for deep-dive analysis
+
+---
+
+## 🧰 Tools & Technologies Used
+
+* **SQL (MySQL):** Data extraction, aggregation, SLA calculations
+* **Python (Pandas):** Data cleaning, transformation, exploratory analysis
+* **Power BI:** Interactive dashboard, KPI tracking, trend visualization
+* **Excel:** Data validation and cross-checking
 
 ---
 
