@@ -159,7 +159,7 @@ By addressing courier accountability and improving demand planning, the company 
 
 ## Project link
 
-🔗 Live Dashboard: 
+🔗 Live Dashboard: https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/
 
 ---
 
