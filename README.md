@@ -53,7 +53,7 @@ The following KPIs were defined to measure delivery performance, operational eff
 ### 📦 Operational KPIs
 
 <img width="1920" height="729" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/80c99d83-b1c1-4dca-afc8-9bab7cf043a7" />
-<img width="1920" height="124" alt="Screenshot (231)" src="https://github.com/user-attachments/assets/c1c512de-5d87-4589-bb65-3a01885b90d3" />
+<img width="1920" height="136" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/cb852d99-30d4-437e-9b02-869f6eb77333" />
 
 ---
 * **Delay Rate by Courier (%)**
