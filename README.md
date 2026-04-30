@@ -10,6 +10,10 @@ The analysis revealed a critical issue: **49.5% of orders were delivered late**,
 
 ## 🎯 Business Problem
 
+<img width="1920" height="489" alt="Screenshot (222)" src="https://github.com/user-attachments/assets/b1d95ffe-8fa5-4d06-a028-00856a9a0444" />
+<img width="1920" height="562" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/ce2e10b8-8d63-4d54-adf1-a2d5024e6bbc" />
+
+---
 Delivery delays directly impact key business metrics:
 
 * **Customer Satisfaction (CSAT):** Late deliveries drive negative reviews and poor brand perception
