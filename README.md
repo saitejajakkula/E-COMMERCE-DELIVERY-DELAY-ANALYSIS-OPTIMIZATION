@@ -246,7 +246,8 @@ The Power BI dashboard includes:
 * **Python (Pandas):** Data cleaning, transformation, exploratory analysis
 * **Excel:** Data validation and cross-checking
 
-I used AI tools like Claude to streamline dashboard development and automate parts of the workflow, while I defined the business problem, selected the KPIs, validated the data, and delivered the key insights and recommendations.
+**I used AI tools like Claude to streamline dashboard development and automate parts of the workflow, while I defined the business problem, selected the KPIs, validated the data, and delivered the key insights and recommendations.**
+
 ---
 
 ## 🚀 Key Takeaway
