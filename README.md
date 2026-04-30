@@ -25,6 +25,10 @@ This makes delivery performance not just an operational issue, but a **strategic
 ---
 ## 📌 Key Performance Indicators (KPIs)
 
+<img width="1920" height="599" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/bc943168-2519-4154-81be-2ebc09da0250" />
+
+---
+
 The following KPIs were defined to measure delivery performance, operational efficiency, and business impact:
 
 ### 🚚 Delivery Performance KPIs
@@ -140,8 +144,15 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ---
 
-## 🧠 Root Cause Analysis (5 Whys Summary)
+## 🧠 Deep Dive Analysis (5 Whys Summary)
 
+<img width="1920" height="503" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b0851a46-bc5d-463e-8c58-1d57d850033d" />
+<img width="1920" height="743" alt="Screenshot (226)" src="https://github.com/user-attachments/assets/dd5abee5-fd98-4159-8430-67e81c16a93e" />
+<img width="1920" height="558" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/c00f2b55-3c53-4950-b3c0-b6ba0109107f" />
+<img width="1920" height="598" alt="Screenshot (228)" src="https://github.com/user-attachments/assets/2eb21f79-6ead-4fbe-9839-6bb1bccd077f" />
+<img width="1920" height="582" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/03b27acb-9b77-49b7-8a83-2e24eeee584c" />
+
+---
 
 **1. Why are deliveries delayed?**
    ~50% of orders miss the 5-day SLA; India Post (57.3%) and DTDC (52.2%) drive most delays, handling 42% of volume.
