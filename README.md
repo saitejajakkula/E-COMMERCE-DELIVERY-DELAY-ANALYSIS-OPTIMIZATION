@@ -155,6 +155,17 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ➡️ Result: **Rs.91,000 higher cost per 1,000 orders vs Ecom Express**
 
+**6. Service Level Failure (Delivery Time Breach)**
+
+From your Delivery Days Distribution
+Large share of orders fall into 5+ days (delayed bucket)
+Indicates failure to meet promised delivery SLA
+
+👉 Why this matters:
+
+**It’s different from “overall delay rate”
+This shows how severe the delays are, not just how many**
+
 ---
 
 ## 🧠 Deep Dive Analysis (5 Whys Summary)
