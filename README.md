@@ -2,9 +2,18 @@
 
 ## 📊 Project Overview
 
-This project presents a comprehensive, data-driven analysis of delivery performance across **5,000 e-commerce orders (Jan–Dec 2023)**. The objective was to identify the root causes of delivery delays, quantify their business impact, and recommend actionable strategies to improve operational efficiency and customer experience.
+This project analyzes delivery performance across **5,000 e-commerce orders (Jan–Dec 2023)**.
 
-The analysis revealed a critical issue: **49.5% of orders were delivered late**, exceeding the industry benchmark of 15% by more than 3x — indicating a systemic operational failure rather than isolated inefficiencies.
+The goal was to:
+
+* Identify **why deliveries are delayed**
+* Measure **business impact**
+* Recommend **practical solutions**
+
+👉 Key finding: **49.5% of orders are delayed**
+That’s **3× worse** than the industry benchmark (15%)
+
+This indicates a **system-wide operational issue**, not a small problem.
 
 ---
 
@@ -14,39 +23,42 @@ The analysis revealed a critical issue: **49.5% of orders were delivered late**,
 <img width="1920" height="562" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/ce2e10b8-8d63-4d54-adf1-a2d5024e6bbc" />
 
 ---
+
 Delivery delays directly impact key business metrics:
 
-* **Customer Satisfaction (CSAT):** Late deliveries drive negative reviews and poor brand perception
-* **Cancellation Rates:** Delayed orders are 3x more likely to be cancelled
-* **Repeat Purchase Rate:** Customers experiencing delays are 40% less likely to reorder within 90 days
+* **Customer Satisfaction (CSAT):** Late deliveries → negative reviews → weaker brand
+* **Cancellation Rates:** Delayed orders are **3× more likely to be cancelled**
+* **Repeat Purchases:** Customers with delays are **40% less likely to reorder**
 
-This makes delivery performance not just an operational issue, but a **strategic growth risk**.
+👉 This is not just an operations issue
+👉 It’s a **revenue and growth problem**
 
 ---
+
 ## 📌 Key Performance Indicators (KPIs)
 
 <img width="1920" height="599" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/bc943168-2519-4154-81be-2ebc09da0250" />
 
 ---
 
-The following KPIs were defined to measure delivery performance, operational efficiency, and business impact:
+These KPIs track delivery performance, operations, and business impact:
 
 ### 🚚 Delivery Performance KPIs
 
 <img width="1920" height="582" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/03b27acb-9b77-49b7-8a83-2e24eeee584c" />
 
 ---
+
 * **Overall Delay Rate (%)**
-  Percentage of orders delivered beyond the 5-day SLA
+  % of orders delivered after 5-day SLA
   → *Current: 49.5% | Target: ≤25%*
 
 * **On-Time Delivery Rate (%)**
-  Percentage of orders delivered within SLA
+  % of orders delivered within SLA
   → *Current: 50.5%*
 
 * **Average Delivery Time (Days)**
-  Mean number of days taken to deliver an order
-  → *Used to compare courier efficiency*
+  Used to compare courier efficiency
 
 ---
 
@@ -56,61 +68,66 @@ The following KPIs were defined to measure delivery performance, operational eff
 <img width="1920" height="136" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/cb852d99-30d4-437e-9b02-869f6eb77333" />
 
 ---
+
 * **Delay Rate by Courier (%)**
-  Measures courier partner performance and SLA adherence
-  → Identifies underperforming partners (e.g., India Post)
+  Identifies underperforming couriers (e.g., India Post)
 
 * **Delay Rate by Region (%)**
-  Highlights geographic bottlenecks in delivery operations
+  Highlights location-based issues
 
 * **Monthly Delay Trend (%)**
-  Tracks seasonal spikes and demand-supply mismatches
+  Identifies seasonal spikes
 
 ---
 
 ### 💰 Business Impact KPIs
 
 * **Cancellation Rate (Delayed vs On-Time)**
-  Delayed orders show ~3x higher cancellation rates
+  Delayed orders cancel significantly more
 
 * **Repeat Purchase Rate (90 Days)**
-  Customers with delayed orders are 40% less likely to reorder
+  Delays reduce customer retention
 
-* **Cost per Successful Delivery (₹)**
-  Includes shipping + cost of delay (refunds, support, churn impact)
+* **Cost per Delivery (₹)**
+  Shipping + delay-related costs
 
 * **Revenue at Risk (₹)**
-  Value of orders impacted by delivery delays
+  Revenue impacted due to delays
 
 ---
 
-### ⚡ Monitoring & Control KPIs (Post-Implementation)
+### ⚡ Monitoring & Control KPIs
 
 * **Courier SLA Compliance (%)**
-  % of deliveries meeting SLA per courier
+  % of on-time deliveries per courier
 
 * **Delay Alert Threshold**
-  Trigger alerts if delay rate exceeds 45% (rolling 7-day window)
+  Alert when delay rate > 45%
 
 * **Peak Season Performance (%)**
-  Tracks delay rates during high-demand months (Jan, Sep)
+  Track performance during Jan & Sep
 
 ---
 
 ## 🎯 KPI Strategy Insight
 
-Instead of tracking only operational metrics, this project links **delivery performance → customer behavior → revenue impact**, ensuring that improvements are aligned with business outcomes, not just logistics efficiency.
+This project connects:
+
+👉 **Operations → Customer behavior → Revenue impact**
+
+So decisions are based on **business outcomes**, not just logistics metrics.
 
 ---
 
 ## 🏗️ Data Processing & Feature Engineering
 
-Two key metrics were created to enable analysis:
+* **Delivery_Days:** Delivery Date – Order Date
+* **Delivery_Status:**
 
-* **Delivery_Days:** Difference between Order Date and Delivery Date
-* **Delivery_Status:** Classified as *Delayed* (>5 days) or *On-Time* (≤5 days)
+  * *On-Time* (≤5 days)
+  * *Delayed* (>5 days)
 
-All results were cross-validated across SQL, Python, and Excel with <0.1% variance.
+Data was validated across SQL, Python, and Excel (**<0.1% variance**).
 
 ---
 
@@ -122,73 +139,67 @@ All results were cross-validated across SQL, Python, and Excel with <0.1% varian
 
 ---
 
-**1. System-Wide Delivery Failure**
+**1. System-Wide Failure**
 
-* Overall delay rate: **49.5% (2,476 orders)**
-* All regions and couriers show high delay rates → not an isolated issue
-
-**2. Courier Performance is the Biggest Lever**
-
-* **India Post:** 57.3% delay (worst performer)
-* **Ecom Express:** 43.7% delay (best performer)
-* A **13.6 percentage point gap** highlights massive optimization potential
-
-**3. Regional Bottleneck (North India)**
-
-* North region delay: **55.8% (highest)**
-* Indicates structural last-mile delivery issues (Delhi, Lucknow)
-
-**4. Predictable Demand Spikes Not Managed**
-
-* January: **59.5% delays**
-* September: **56.3% delays**
-* Root cause: Lack of demand-based capacity planning
-
-**5. “Cheaper Courier” is Actually Costlier**
-
-* India Post appears cheaper upfront
-* But higher delays lead to:
-
-  * Refund costs
-  * Customer service overhead
-  * Lost customer lifetime value (CLTV)
-
-➡️ Result: **Rs.91,000 higher cost per 1,000 orders vs Ecom Express**
-
-**6. Service Level Failure (Delivery Time Breach)**
-
-From your Delivery Days Distribution
-Large share of orders fall into 5+ days (delayed bucket)
-Indicates failure to meet promised delivery SLA
-
-👉 Why this matters:
-
-**It’s different from “overall delay rate”
-This shows how severe the delays are, not just how many**
+* Delay rate: **49.5% (2,476 orders)**
+* Issue exists across all regions and couriers
 
 ---
 
-## 🧠 Deep Dive Analysis (5 Whys Summary)
+**2. Courier Performance = Biggest Lever**
+
+* India Post: **57.3% delay (worst)**
+* Ecom Express: **43.7% (best)**
+* Gap: **13.6% → major optimization opportunity**
+
+---
+
+**3. North India Bottleneck**
+
+* Delay rate: **55.8% (highest)**
+* Indicates last-mile delivery issues
+
+---
+
+**4. Poor Peak Planning**
+
+* January: **59.5% delays**
+* September: **56.3% delays**
+* Cause: No capacity planning
+
+---
+
+**5. “Cheap” Courier is Expensive**
+
+* India Post appears cheaper
+* But leads to:
+
+  * refunds
+  * support costs
+  * lost customers
+
+👉 Result: **₹91,000 higher cost per 1,000 orders**
+
+---
+
+**6. SLA Breach Severity**
+
+* Many orders exceed 5 days
+* Shows **severity of delays**, not just frequency
+
+---
+
+## 🧠 Deep Dive Analysis (5 Whys)
 
 <img width="1920" height="503" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b0851a46-bc5d-463e-8c58-1d57d850033d" />
 
 ---
 
-**1. Why are deliveries delayed?**
-   ~50% of orders miss the 5-day SLA; India Post (57.3%) and DTDC (52.2%) drive most delays, handling 42% of volume.
-
-**2. Why do these couriers miss SLA?**
-   They take 7.1–7.8 days on average vs. 6.3 days for Ecom Express → last-mile inefficiency and hub congestion.
-
-**3. Why such performance gap?**
-   No SLA-linked penalties → no financial incentive to prioritize timely delivery.
-
-**4. Why do delays spike in Jan & Sep?**
-   Demand surges create warehouse backlogs while courier capacity and staffing remain fixed.
-
-**5. Why isn’t capacity scaled?**
-   No real-time SLA tracking or demand forecasting → operations react too late to demand spikes.
-
+1. Deliveries are late → ~50% miss SLA
+2. Couriers are slow → 7–8 days vs ~6 days
+3. No penalties → no urgency
+4. Demand spikes → no extra capacity
+5. No forecasting → late reaction
 
 ---
 
@@ -199,32 +210,23 @@ This shows how severe the delays are, not just how many**
 
 ---
 
- **1. SLA Contract Reform**
+**1. SLA Contract Reform**
+Add penalties for late deliveries
 
-Introduce penalty clauses for delayed deliveries to enforce accountability.
+**2. Smart Courier Routing**
+Use best couriers for high-value orders
 
- **2. Smart Courier Routing**
+**3. Peak Season Planning**
+Increase capacity before Jan & Sep
 
-* Route high-value orders to high-performing couriers
-* Use low-cost couriers only for non-urgent shipments
+**4. Real-Time Monitoring**
+Track delays daily and trigger alerts
 
- **3. Peak Season Planning**
+**5. Regional Fix (North)**
+Audit and fix last-mile issues
 
-* Increase capacity by ~30% before Jan & Sep demand spikes
-
- **4. Real-Time SLA Monitoring Dashboard**
-
-* Track courier performance daily
-* Trigger alerts for SLA breaches
-
- **5. Regional Optimization (North)**
-
-* Conduct last-mile audit
-* Deploy dedicated operations team
-
- **6. Proactive Customer Communication**
-
-* Notify delays early + offer compensation (discount vouchers)
+**6. Customer Communication**
+Notify delays early + offer compensation
 
 ---
 
@@ -233,74 +235,97 @@ Introduce penalty clauses for delayed deliveries to enforce accountability.
 <img width="1920" height="742" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/ad6ea0e0-c12e-4c3c-a4e4-eedeff1e1e6c" />
 
 ---
-* **Delay Rate Reduction:** 49.5% → ~22–26%
-* **Cancellation Reduction:** Up to 18% → ~10%
-* **Repeat Purchase Increase:** +15–20%
-* **Annual Revenue Protection:** Rs.18–21 Crores
+
+* Delay Rate: **49.5% → ~22–26%**
+* Cancellations: **18% → ~10%**
+* Repeat Purchases: **+15–20%**
+* Revenue Protection: **₹18–21 Crores/year**
 
 ---
 
 ## 📊 Dashboard Highlights
 
-The Power BI dashboard includes:
-
-* KPI cards (Total Orders, Delay %, Avg Delivery Days)
-* Delay % by Region and Courier
-* Monthly trend analysis (spike detection)
-* Interactive filters for deep-dive analysis
+* KPI summary cards
+* Delay by region & courier
+* Monthly trends
+* Interactive filters
 
 ---
 
 ## 🧰 Tools & Technologies Used
 
-* **SQL (MySQL):** Data extraction, aggregation, SLA calculations
-* **Python (Pandas):** Data cleaning, transformation, exploratory analysis
-* **Excel:** Data validation and cross-checking
+* **SQL (MySQL):** Data extraction & calculations
+* **Python (Pandas):** Data cleaning & analysis
+* **Excel:** Validation
 
-**I used AI tools like Claude to streamline dashboard development and automate parts of the workflow, while I defined the business problem, selected the KPIs, validated the data, and delivered the key insights and recommendations.**
+👉 AI tools were used to speed up workflow
+But:
+
+* Problem definition
+* KPI selection
+* Insights & recommendations
+  were done independently
 
 ---
 
 ## 🚀 Key Takeaway
 
-This project demonstrates how delivery performance is not just a logistics metric, but a **core driver of revenue, retention, and customer trust**.
+Delivery performance is not just an operations metric.
 
-By addressing courier accountability and improving demand planning, the company can significantly reduce delays and unlock substantial business value — without major infrastructure investment.
+👉 It directly impacts:
+
+* Revenue
+* Customer retention
+* Brand trust
+
+Fixing this can unlock **huge business value without heavy investment**
 
 ---
 
 ## Project link
 
-🔗 Live Dashboard: https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/
+🔗 [https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/](https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/)
 
 ---
 
 ## 📂 Use Case
 
-This project is ideal for demonstrating:
+This project demonstrates:
 
-Business Analyst skills Data-driven decision making Structured problem solving Insight generation from data
+* Business analysis
+* Data-driven decision making
+* Structured problem solving
+* Insight-to-action thinking
 
 ---
 
 ## 👨‍💼 About Me
+
 Hi, I’m Saiteja Jakkula 👋
 
-I’m interested in Business Analytics, Market Research, and Strategy Analysis, with a focus on:
+Interested in:
 
-Structured thinking
+* Business Analytics
+* Market Research
+* Strategy
 
-Second-order impact analysis
+Focus:
 
-Combining Human + AI for decision making
+* Structured thinking
+* Second-order impact
+* Human + AI decision making
 
 ---
 
-## 🔗 Connect with me on LinkedIn:
-💼 https://www.linkedin.com/in/jakkula-saiteja/
+## 🔗 Connect with me on LinkedIn
+
+💼 [https://www.linkedin.com/in/jakkula-saiteja/](https://www.linkedin.com/in/jakkula-saiteja/)
 
 ---
 
 ## ⭐ If you found this useful
 
-Give this repo a ⭐ and feel free to connect or reach out!
+Give this repo a ⭐ and feel free to connect!
+
+---
+
