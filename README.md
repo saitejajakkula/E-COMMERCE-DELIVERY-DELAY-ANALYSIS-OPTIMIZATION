@@ -284,7 +284,7 @@ Fixing this can unlock **huge business value without heavy investment**
 
 ## Project link
 
-🔗 [https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/](https://saitejajakkula.github.io/E-COMMERCE-DELIVERY-DELAY-ANALYSIS-OPTIMIZATION/)
+🔗 [https://saitejajakkula.github.io/E-commerce-delivery-delay-analysis-optimization/]
 
 ---
 
