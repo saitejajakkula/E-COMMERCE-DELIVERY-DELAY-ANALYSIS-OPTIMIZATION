@@ -259,8 +259,8 @@ Notify delays early + offer compensation
 * **Excel:** Validation
 
 👉 AI tools were used to speed up workflow
-But:
 
+But:
 * Problem definition
 * KPI selection
 * Insights & recommendations
